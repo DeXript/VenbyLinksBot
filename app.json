@@ -1,0 +1,33 @@
+
+{
+    "name": "Venby Links Bot",
+    "description": "A PHP Telegram Bot To Short Your Links Using Venby Links API",
+    "keywords": [
+        "Movie",
+        "Avengers",
+        "Robot"
+    ],
+    "logo": "https://telegra.ph/file/97c1bd941b54f4b1913bc.jpg",
+    "repository": "https://github.com/Dexript/VenbyLinksBot",
+    "success_url": "/",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "your Telegram Bot Token, from @BotFather"
+
+        },"BOT_USERNAME": {
+            "description": "USER NAME OF YOUR BOT"
+        },
+"VB_API_KEY": {
+            "description": "GET YOUR API KEY FROM http://venby.in/member/tools/api"
+
+        }
+        
+    },
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "image": "heroku/php"
+}
